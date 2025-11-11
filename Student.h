@@ -6,13 +6,17 @@
 #using namespace std;
 //#write student class here
 
+class Student {
 
+protected:
+int yearLevel;
+string major;
 
+public:
+Student ( int yearLevel, string major ){}
+void display();
 
-
-
-
-
+}
 
 
 
