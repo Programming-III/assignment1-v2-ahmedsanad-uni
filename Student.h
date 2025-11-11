@@ -6,7 +6,7 @@
 #using namespace std;
 //#write student class here
 
-class Student {
+class Student : Person{
 
 protected:
 int yearLevel;
