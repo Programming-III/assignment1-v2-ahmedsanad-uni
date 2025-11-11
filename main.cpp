@@ -22,7 +22,7 @@ cout<<"Person's name is: " << this-> name << endl << "Person's id is: " << this-
 
 };
 // ==================== Student Class Implementation ====================
-class Student {
+class Student : Person{
 
 Student ( int yearLevel, string major ) {
 this-> yearLevel = yearLevel;
@@ -35,7 +35,7 @@ cout << "This student's year level is: " << this-> yearLevel << endl << "This st
 
 };
 // ==================== Instructor Class Implementation ====================
-class Instructor {
+class Instructor : Person {
 
 Instructor ( string department, int experienceYears ) {
 
@@ -48,15 +48,28 @@ void display(){
 cout<< "This Instructor's department is: " << this-> department << endl << "This Instructor's Experience is: " << this-> experienceYears << endl;
 }
 
+};
 // ==================== Course Class Implementation ====================
 
+class Course {
 
+Course(string courseCode, string courseName, int maxStudents, Student* students, int currentStudents) {
+this-> courseCode = courseCode;
+this-> courseName = courseName;
+this-> maxStudents = maxStudents;
+this-> currentStudents = currentStudents;
+}
 
+addStduent(const Students& s){
+   
+}
 
+void display(){
+   cout << "This course's code is: " << this-> courseCode << endl << "This course's name is: " << this-> courseName << endl << "Max number of students is: "
+<< this-> maxStudents << endl << "The number of current students is: " << this-> currentStudents << endl << "The students enrolled in this course are: " 
+<< Student.display();
 
-
-
-
+};
 // ==================== Main Function ====================
 int main() {
    
