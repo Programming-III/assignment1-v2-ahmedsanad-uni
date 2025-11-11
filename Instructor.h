@@ -5,7 +5,7 @@
 using namespace std;
 //#write Instructor class here
 
-class Instructor {
+class Instructor : Person{
 
 protected:
 string department;
