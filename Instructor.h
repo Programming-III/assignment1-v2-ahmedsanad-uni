@@ -5,14 +5,18 @@
 using namespace std;
 //#write Instructor class here
 
+class Instructor {
+
+protected:
+string department;
+int experienceYears;
 
 
+public: 
+Instructor ( string department , int experienceYears) {}
+void display();
 
-
-
-
-
-
+}
 
 
 
