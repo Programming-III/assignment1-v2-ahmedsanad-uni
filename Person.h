@@ -6,9 +6,13 @@ using namespace std;
 
 //#write Person class here
 
+private:
+string name;
+int id;
 
 
-
+public:
+void display();
 
 
 
