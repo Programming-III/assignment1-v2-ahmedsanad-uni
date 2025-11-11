@@ -80,5 +80,9 @@ int main() {
 Course c = ("CS101", " Introduction to Programming ", 3 );
 Instructor i = ( "Dr. Lina Khaled " , " Computer Science ", 5 );
 Student s = ("Omar Nabil", 2 , "Informatics" );   
-    return 0;
+c.display();
+   i.display();
+   s.display();
+   
+   return 0;
 }
