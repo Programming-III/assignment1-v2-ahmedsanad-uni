@@ -21,9 +21,12 @@ Course(string courseCode, string courseName, int maxStudents, Student* students,
 addStudent( const student& s );
 void displayCourseInfo();
 
+getCourseCode();
+getCourseName();
+getMaxStudents();
+getCurrentStudents();
 
-
-
+}
 
 
 
