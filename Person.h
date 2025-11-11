@@ -15,11 +15,10 @@ public:
 Person (string name, int id) {}
 void display();
 
+getName();
+getId();
+
 }
-
-
-
-
 
 
 #endif
