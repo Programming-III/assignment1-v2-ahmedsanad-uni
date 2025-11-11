@@ -18,6 +18,7 @@ void display();
 
 
 getYearLevel();
+getMajor();
 }
 
 
