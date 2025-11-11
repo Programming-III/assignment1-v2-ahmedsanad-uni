@@ -20,6 +20,10 @@ void display(){
 cout<<"Person's name is: " << this-> name << endl << "Person's id is: " << this-> id << endl;
 }
 
+getName() {
+
+}
+
 };
 // ==================== Student Class Implementation ====================
 class Student : Person{
@@ -73,6 +77,8 @@ void display(){
 // ==================== Main Function ====================
 int main() {
    
-    
+Course c = ("CS101", " Introduction to Programming ", 3 );
+Instructor i = ( "Dr. Lina Khaled " , " Computer Science ", 5 );
+Student s = ("Omar Nabil", 2 , "Informatics" );   
     return 0;
 }
