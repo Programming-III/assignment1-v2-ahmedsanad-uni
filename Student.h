@@ -8,7 +8,7 @@
 
 class Student : Person{
 
-protected:
+private:
 int yearLevel;
 string major;
 
@@ -16,6 +16,8 @@ public:
 Student ( int yearLevel, string major ){}
 void display();
 
+
+getYearLevel();
 }
 
 
